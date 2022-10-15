@@ -2,11 +2,13 @@ import "./Main.css"
 
 import React from "react";
 import SlideOne from "../SlideOne.js/SlideOne";
+import SlideTwo from "../SlideTwo/SlideTwo";
 
 const Main = () => {
-  return <div className="main">
+  return <section className="main">
     <SlideOne />
-  </div>;
+    <SlideTwo />
+  </section>;
 };
 
 export default Main;

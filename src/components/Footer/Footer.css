@@ -1,0 +1,14 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-left: 68px;
+  padding-bottom: 14px;
+}
+
+.footer__logo {
+  background-image: url("../../vendor/images/footer/onpoint-logo.png");
+  background-size: cover;
+  width: 60px;
+  height: 12px;
+}
