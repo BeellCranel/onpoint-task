@@ -1,0 +1,43 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 26px 44px 0 66px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header__logo-wrapper {
+  display: flex;
+}
+
+.header__home-link {
+    background-image: url('../../vendor/images/header/home-icon.png');
+    background-size: cover;
+    background-position: center;
+    width: 22px;
+    height: 19px;
+    margin-top: 3px;
+}
+
+.header__project {
+    margin: 0 0 0 24px;
+    padding: 5px 24px;
+    font-family: "Circe", "Arial", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 00.16em;
+    border-left: 1px solid black;
+}
+
+.header__nav-btn {
+    background-image: url('../../vendor/images/header/nav-btn.png');
+    background-size: cover;
+    background-position: center;
+    width: 26px;
+    height: 26px;
+    border: none;
+    background-color: transparent;
+}
