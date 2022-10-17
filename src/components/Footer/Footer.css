@@ -4,6 +4,7 @@
   width: 100%;
   padding-left: 68px;
   padding-bottom: 14px;
+  box-sizing: border-box;
 }
 
 .footer__logo {

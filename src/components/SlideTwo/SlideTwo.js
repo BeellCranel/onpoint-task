@@ -40,7 +40,35 @@ const SlideTwo = () => {
       <div className={spermSmallBot}></div>
       <div className={spermSmallTop}></div>
       <h2 className="slide-two__title">Текст сообщения</h2>
-      <div className="slide-two__content-wrapper"></div>
+      <div className="slide-two__content-wrapper">
+        <div className="slide-two__text-wrapper">
+          <div className="slide-two__text">
+            <b>Lorem ipsum dolor sit amet,</b> consectetur adipisicing elit.
+            Accusantium, aut consequatur corporis optio perspiciatis provident
+            reiciendis reprehenderit rerum. Cupiditate enim iste maxime
+            praesentium vero. Ad eligendi id minima necessitatibus obcaecati.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam
+            aut debitis delectus deleniti dolores ducimus facere fugit illo,
+            minima quaerat sed ullam. Eaque esse ex expedita in quae velit!
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+            consequuntur dolorum fuga nam numquam optio pariatur quaerat quas,
+            quasi quidem quo ratione reprehenderit sapiente sint sit ullam
+            voluptas, voluptatibus voluptatum! Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Corporis doloremque doloribus
+            explicabo libero officiis sed similique soluta sunt ut, voluptate?
+            Alias aliquid ea facilis impedit molestiae numquam quis, vero
+            voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            A alias aperiam cum, dolore doloremque ea eius et eum exercitationem
+            inventore, obcaecati perspiciatis qui quisquam repudiandae tempora
+            tenetur, totam voluptates voluptatum. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Aperiam assumenda aut cum dolorem eos
+            error, id officiis placeat qui, quisquam sint tenetur. Debitis,
+            expedita fugiat illum magnam mollitia perspiciatis vel.
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

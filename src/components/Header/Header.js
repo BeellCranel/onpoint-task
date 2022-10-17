@@ -1,11 +1,11 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ goToFirst }) => {
   return (
     <header className="header">
       <div className="header__logo-wrapper">
-        <a href="#home" className="header__home-link"></a>
+        <div onClick={goToFirst} className="header__home-link"></div>
         <p className="header__project">project</p>
       </div>
       <button className="header__nav-btn"></button>

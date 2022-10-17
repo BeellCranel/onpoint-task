@@ -1,9 +1,9 @@
 import React from "react";
 import "./SlideOne.css";
 
-const SlideOne = () => {
+const SlideOne = ({ firstSlide }) => {
   return (
-    <section id="home" className="slide slide-one">
+    <section className="slide slide-one" ref={firstSlide}>
       <div className="slide-one__back-img slide-one__back-img_type_blueLong"></div>
       <div className="slide-one__back-img slide-one__back-img_type_sperm"></div>
       <div className="slide-one__back-img slide-one__back-img_type_spermBlur"></div>

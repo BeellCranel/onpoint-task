@@ -13,30 +13,31 @@
 }
 
 .header__home-link {
-    background-image: url('../../vendor/images/header/home-icon.png');
-    background-size: cover;
-    background-position: center;
-    width: 22px;
-    height: 19px;
-    margin-top: 3px;
+  background-image: url("../../vendor/images/header/home-icon.png");
+  background-size: cover;
+  background-position: center;
+  width: 22px;
+  height: 19px;
+  margin-top: 3px;
+  z-index: 1;
 }
 
 .header__project {
-    margin: 0 0 0 24px;
-    padding: 5px 24px;
-    font-family: "Circe", "Arial", sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 00.16em;
-    border-left: 1px solid black;
+  margin: 0 0 0 24px;
+  padding: 5px 24px;
+  font-family: "Circe", "Arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 00.16em;
+  border-left: 1px solid black;
 }
 
 .header__nav-btn {
-    background-image: url('../../vendor/images/header/nav-btn.png');
-    background-size: cover;
-    background-position: center;
-    width: 26px;
-    height: 26px;
-    border: none;
-    background-color: transparent;
+  background-image: url("../../vendor/images/header/nav-btn.png");
+  background-size: cover;
+  background-position: center;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background-color: transparent;
 }
