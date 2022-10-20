@@ -1,0 +1,79 @@
+.slide-three__wrapper {
+  padding-left: 160px;
+}
+
+.slide-three__text-wrapper {
+  padding-left: 126px;
+}
+
+.slide-three__title {
+  margin: 0;
+  font-family: "DIN Pro", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 00.04em;
+}
+
+.slide-three__subtitle {
+  margin: 0;
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 96px;
+  text-transform: uppercase;
+  letter-spacing: 00.11em;
+    transform: translate3d(-5.3px, 2.4px, 0);
+}
+
+.slide-three__blocks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.slide-three__block {
+  background-color: #fff;
+  font-family: "DIN Pro", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.24;
+  border-radius: 40px;
+  padding: 48px 40px;
+  letter-spacing: 00.019em;
+  box-sizing: border-box;
+  box-shadow: 0 0 65px 0 rgb(0 0 0 / 15%);
+  position: relative;
+}
+
+.slide-three__block_type_one {
+  width: 411px;
+  height: 266px;
+  padding-left: 127px;
+}
+
+.slide-three__block_type_two {
+  width: 257px;
+  height: 150px;
+  color: #e02368;
+}
+
+.slide-three__plate-icon {
+  width: 67px;
+  height: 63px;
+  background-image: url("../../vendor/images/slideThree/plate.png");
+  background-size: cover;
+  position: absolute;
+  top: -33px;
+  left: 127px;
+}
+
+.slide-three__schedule-icon {
+  width: 71px;
+  height: 59px;
+  background-image: url("../../vendor/images/slideThree/schedule.png");
+  background-size: cover;
+  position: absolute;
+  top: -25px;
+  left: 38px;
+}

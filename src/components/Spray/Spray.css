@@ -1,0 +1,180 @@
+.spray-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 357px;
+  height: 731px;
+}
+
+.spray-wrapper__group {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.images {
+  position: absolute;
+  background-size: cover;
+}
+
+.spray {
+  background-image: url("../../vendor/images/spray/spray.png");
+  width: 233px;
+  height: 688px;
+  left: 50px;
+  bottom: 0px;
+  z-index: 7;
+}
+
+.bubbleOne {
+  background-image: url("../../vendor/images/spray/bubbleOne.png");
+  width: 37px;
+  height: 37px;
+  top: 27px;
+  left: 197px;
+  z-index: 6;
+  animation: moveOne 10s linear infinite;
+}
+
+@keyframes moveOne {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate3d(15px, 20px, 0);
+  }
+  50% {
+    transform: translate3d(-5px, 30px, 0);
+  }
+  75% {
+    transform: translate3d(-15px, 20px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bubbleTwo {
+  background-image: url("../../vendor/images/spray/bubbleTwo.png");
+  width: 67px;
+  height: 69px;
+  top: 119px;
+  left: 184px;
+  z-index: 8;
+  animation: moveTwo 8s linear infinite alternate;
+}
+
+@keyframes moveTwo {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(20px, 30px, 0);
+  }
+  100% {
+    transform: translate3d(-10px, 20px, 0);
+  }
+}
+
+.bubbleThree {
+  background-image: url("../../vendor/images/spray/bubbleThree.png");
+  width: 34px;
+  height: 34px;
+  top: 176px;
+  left: 77px;
+  z-index: 6;
+  animation: moveTwo 15s linear infinite alternate;
+}
+
+.bubbleFour {
+  background-image: url("../../vendor/images/spray/bubbleFour.png");
+  width: 112px;
+  height: 112px;
+  top: 280px;
+  left: 187px;
+  z-index: 6;
+  animation: moveThree 10s linear infinite;
+}
+
+@keyframes moveThree {
+  0% {
+    transform: translate3d(-0, 0, 0) scale(1);
+  }
+  12% {
+    transform: translate3d(-30px, -10px, 0) scale(1);
+  }
+  24% {
+    transform: translate3d(0px, -10px, 0) scale(1.1);
+  }
+  50% {
+    transform: translate3d(30px, 0, 0) scale(1.3);
+  }
+  100% {
+    transform: translate3d(-0, 0, 0) scale(1);
+  }
+}
+
+.bubbleFive {
+  background-image: url("../../vendor/images/spray/bubbleFive.png");
+  width: 33px;
+  height: 33px;
+  left: 11px;
+  bottom: 281px;
+  z-index: 6;
+  animation: moveTwo 12s linear infinite alternate;
+}
+
+.bubbleSix {
+  background-image: url("../../vendor/images/spray/bubbleSix.png");
+  width: 75px;
+  height: 75px;
+  left: 25px;
+  bottom: 139px;
+  z-index: 7;
+  animation: moveThree 15s linear infinite;
+}
+
+.bubbleSeven {
+  background-image: url("../../vendor/images/spray/bubbleSeven.png");
+  width: 60px;
+  height: 60px;
+  left: 244px;
+  bottom: 116px;
+  z-index: 6;
+  animation: moveOne 15s linear infinite;
+}
+
+.bubbleEight {
+  background-image: url("../../vendor/images/spray/bubbleEight.png");
+  width: 142px;
+  height: 142px;
+  left: 184px;
+  bottom: -77px;
+  z-index: 7;
+  animation: moveFour 20s linear infinite, scale 20s linear infinite alternate;
+}
+
+@keyframes moveFour {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate3d(-60px, -30px, 0);
+  }
+  50% {
+    transform: translate3d(0, 0, 0);
+  }
+  75% {
+    transform: translate3d(60px, -30px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes scale {
+  to {
+    transform: scale(1.4);
+  }
+}

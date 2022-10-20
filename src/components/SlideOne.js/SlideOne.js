@@ -1,7 +1,8 @@
 import React from "react";
+import Button from "../Button/Button";
 import "./SlideOne.css";
 
-const SlideOne = ({ firstSlide }) => {
+const SlideOne = ({ firstSlide, goToSecond }) => {
   return (
     <section className="slide slide-one" ref={firstSlide}>
       <div className="slide-one__back-img slide-one__back-img_type_blueLong"></div>
@@ -21,10 +22,7 @@ const SlideOne = ({ firstSlide }) => {
           это <b className="slide-one__subtitle_style_bold">не</b> коммерческое
           задание
         </p>
-        <button className="slide-one__next-btn">
-          <div className="slide-one__arrow-icon"></div>
-          Что дальше?
-        </button>
+        <Button onClickHandler={goToSecond} place="first" />
       </div>
     </section>
   );
