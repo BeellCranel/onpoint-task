@@ -23,6 +23,7 @@ https://drive.google.com/file/d/16auyEk71Ez5KJU1Px6SUhW-ht_VCEgOT/view
 - запустить проект командой `npm run start`
 - Перейти по ссылке [http://localhost:3000](http://localhost:3000).
 
+
 ## Github Pages
 
-[ссылка на проект на Github Pages]()
+[ссылка на проект на Github Pages](https://beellcranel.github.io/onpoint-task/)
