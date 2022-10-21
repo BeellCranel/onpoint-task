@@ -6,7 +6,7 @@ const SlideTwo = ({ secondSlide }) => {
   const scrollRef = useRef();
   const [slider, setSlider] = useState({
     min: 0,
-    max: 330,
+    max: 265,
     step: 1,
     value: 0,
   });

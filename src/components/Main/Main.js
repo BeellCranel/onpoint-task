@@ -5,12 +5,12 @@ import SlideOne from "../SlideOne.js/SlideOne";
 import SlideTwo from "../SlideTwo/SlideTwo";
 import SlideThree from "../SlideThree.js/SlideThree";
 
-const Main = ({ firstSlide, secondSlide, goToSecond }) => {
+const Main = ({ firstSlide, secondSlide, goToSecond, popupOpenHandler }) => {
   return (
     <main className="main">
       <SlideOne firstSlide={firstSlide} goToSecond={goToSecond} />
       <SlideTwo secondSlide={secondSlide} />
-      <SlideThree />
+      <SlideThree popupOpenHandler={popupOpenHandler} />
     </main>
   );
 };

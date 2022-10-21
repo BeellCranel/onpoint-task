@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-const Button = ({ onClickHandler, place }) => {
+const Button = ({ onClickHandler, place, popupOpenHandler }) => {
   const buttonIconClassName = `btn__icon ${
     place === "first" ? "btn__icon_type_arrow" : "btn__icon_type_plus"
   }`;
@@ -9,7 +9,10 @@ const Button = ({ onClickHandler, place }) => {
   const buttonClassName = `btn ${place === "third" ? "btn__more" : ""}`;
 
   return (
-    <button onClick={onClickHandler} className={buttonClassName}>
+    <button
+      onClick={place === "third" ? popupOpenHandler : onClickHandler}
+      className={buttonClassName}
+    >
       <div className={buttonIconClassName}></div>
       {place === "first" ? "Что дальше?" : "Подробнее"}
     </button>

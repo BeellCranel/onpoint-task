@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 import Spray from "../Spray/Spray";
 import "./SlideThree.css";
 
-const SlideThree = () => {
+const SlideThree = ({popupOpenHandler}) => {
   return (
     <section className="slide slide-three">
       <div className="slide-three__wrapper">
@@ -23,7 +23,7 @@ const SlideThree = () => {
             <div className="slide-three__schedule-icon"></div>
             A arcu <br /> cursus vitae
           </div>
-          <Button place="third" />
+          <Button place="third" popupOpenHandler={popupOpenHandler} />
         </div>
       </div>
       <Spray />
